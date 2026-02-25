@@ -16,7 +16,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Navbar Styling */
 .custom-navbar {
     background-color: rgba(253, 245, 201, 0.9);
     backdrop-filter: blur(10px);
@@ -40,7 +39,6 @@ body {
     color: var(--accent-gold) !important;
 }
 
-/* Hero Section */
 .hero-section {
     padding: 180px 0 100px;
     background: linear-gradient(180deg, var(--pastel-yellow) 0%, var(--bg-light) 100%);
@@ -55,7 +53,6 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
-/* Section Titles */
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
@@ -73,7 +70,6 @@ body {
     border-radius: 10px;
 }
 
-/* Table Card Styling */
 .table-card {
     background: white;
     border-radius: 20px;
@@ -89,7 +85,6 @@ body {
     padding: 15px;
 }
 
-/* Awards List */
 .awards-list {
     list-style: none;
     padding: 0;
@@ -112,16 +107,15 @@ body {
     background-color: #fffaf8;
 }
 
-/* تنسيق روابط الشهادات */
 .award-link {
-    text-decoration: none; /* لإزالة الخط تحت الرابط */
-    color: var(--text-main); /* استخدام اللون البني الأساسي للموقع */
+    text-decoration: none; 
+    color: var(--text-main); 
     display: block;
     transition: color 0.3s ease;
 }
 
 .award-link:hover {
-    color: var(--accent-gold); /* يتغير للذهبي عند تمرير الماوس */
+    color: var(--accent-gold); 
 }
 
 .awards-list i {
@@ -130,7 +124,6 @@ body {
     margin-right: 15px;
 }
 
-/* Project Cards */
 .project-card {
     border: none;
     border-radius: 20px;
@@ -146,20 +139,19 @@ body {
     box-shadow: 0 12px 25px rgba(0,0,0,0.08);
 }
 
-/* تعديل حجم الصور في البطاقات */
 .project-img-holder {
-    height: 200px; /* زيادة الارتفاع لإعطاء مساحة أكبر للصورة */
+    height: 200px; 
     background-color: var(--pastel-green);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px; /* إضافة مساحة داخلية */
+    padding: 20px; 
 }
 
 .project-icon-img {
-    width: 120px; /* زيادة عرض الصورة */
+    width: 120px; 
     height: auto;
-    object-fit: contain; /* تضمن أن الصورة بالكامل تظهر داخل المساحة دون قص أو تشويه */
+    object-fit: contain; 
 }
 
 .btn-custom {
@@ -175,7 +167,7 @@ body {
     color: white;
 }
 
-/* Interest Badges */
+
 .badge-pill {
     background: var(--pastel-pink);
     color: var(--text-main);
